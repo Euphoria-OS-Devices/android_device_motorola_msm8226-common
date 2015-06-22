@@ -84,6 +84,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libxml2
 
+# charge_only_mode
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/charge_only_mode:system/bin/charge_only_modeO
+
 # CRDA
 PRODUCT_PACKAGES += \
     crda \
