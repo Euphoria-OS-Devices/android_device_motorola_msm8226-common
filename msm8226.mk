@@ -160,10 +160,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     qcmediaplayer
 
-# Power
-PRODUCT_PACKAGES += \
-    power.msm8226
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.crda.sh \
