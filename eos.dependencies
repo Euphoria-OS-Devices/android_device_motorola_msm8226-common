@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "Euphoria-OS-Devices/android_device_qcom_common",
+    "repository": "Euphoria-OS-Legacy/android_device_qcom_common",
     "target_path": "device/qcom/common",
     "revision":    "lollipop-5.1"
   },
