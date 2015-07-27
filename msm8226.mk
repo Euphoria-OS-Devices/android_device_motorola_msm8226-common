@@ -88,13 +88,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/charge_only_mode:system/bin/charge_only_modeO
 
-# CRDA
-PRODUCT_PACKAGES += \
-    crda \
-    linville.key.pub.pem \
-    regdbdump \
-    regulatory.bin
-
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8226 \
@@ -161,7 +154,6 @@ PRODUCT_BOOT_JARS += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.crda.sh \
     init.qcom.bt.sh \
     init.qcom.fm.sh \
     init.qcom.ril.sh \
